@@ -75,6 +75,8 @@ class Od_Main_Custom_Script_Style_Public {
 
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/od-main-custom-script-style-public.css', array(), $this->version, 'all' );
 
+		wp_enqueue_style( 'od-review-for-podcast', plugin_dir_url( __FILE__ ) . 'css/od-review-for-podcast.css', array(), $this->version, 'all' );
+
 	}
 
 	/**

@@ -98,6 +98,8 @@ class Od_Main_Custom_Script_Style_Public {
 
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/od-main-custom-script-style-public.js', array( 'jquery' ), $this->version, false );
 
+		wp_enqueue_script( 'od-review-for-podcast', plugin_dir_url( __FILE__ ) . 'js/od-review-for-podcast.js', array( 'jquery' ), $this->version, false );
+
 	}
 
 }

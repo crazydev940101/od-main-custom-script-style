@@ -1,12 +1,44 @@
+.glsr-summary {
+	flex-wrap: nowrap !important;
+}
 .glsr-summary-percentages {
   display: none;
 }
+.glsr-tag-value {
+	color: #fff;
+}
+.glsr-tag-value p{
+    font-size: clamp(18px, 4vw, 24px) !important;
+}
 .glsr-summary-text {
   color: #fff;
+	font-size: 16px;
 }
 .glsr-reviews p {
   color: #fff;
 }
 .glsr-field label {
   color: #fff;
+}
+.glsr-button {
+	background-color: #3CBFD0 !important;
+	font-size: 24px !important;
+	border-radius: 10px !important;
+}
+.glsr-field textarea, .glsr-field input{
+	font-size: 24px !important;
+	border-radius: 10px !important;
+}
+.glsr-field {
+	margin-bottom: 10px !important;
+}
+.glsr-field textarea::placeholder, .glsr-field input::placeholder {
+/* 	color: #747578; */
+	font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+	.glsr-reviews {
+	display: flex !important;
+}
 }

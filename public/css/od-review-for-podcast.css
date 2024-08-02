@@ -1,3 +1,7 @@
+.glsr-review {
+	flex: 1 !important;
+	display: block !important;
+}
 .glsr-summary {
 	flex-wrap: nowrap !important;
 }

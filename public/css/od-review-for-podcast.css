@@ -21,10 +21,10 @@
 .strong-view.wpmtst-default .wpmtst-testimonial, .strong-view.wpmtst-default .wpmtst-testimonial-inner {
 	border: none !important;
 }
-a.readmore-toggle {
-	margin-left: 5px !important;
-}
 .strong-form .field-wrap.error {
 	background: none !important;
 	border: none !important;
+}
+.wpmtst-testimonial-success p {
+	color: white !important;
 }

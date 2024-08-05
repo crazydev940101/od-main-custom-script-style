@@ -1,48 +1,23 @@
-.glsr-review {
-	flex: 1 !important;
-	display: block !important;
+.strong-form-inner {
+	padding: 0px !important;
 }
-.glsr-summary {
-	flex-wrap: nowrap !important;
+.strong-rating-wrapper .star svg {
+	width: 28px !important;
 }
-.glsr-summary-percentages {
-  display: none;
+.strong-form .form-field input, .strong-form .form-field textarea{
+	font-size: 28px !important;
+	border-radius: 10px !important;
 }
-.glsr-tag-value {
+.strong-view.controls-type-sides-outside {
+	padding: 0px !important
+}
+.testimonial-content {
+	color: white !important;
+    font-size: 24px !important;
+}
+.testimonial-content p, .testimonial-name {
 	color: #fff;
 }
-.glsr-tag-value p{
-    font-size: clamp(18px, 4vw, 24px) !important;
-}
-.glsr-summary-text {
-  color: #fff;
-	font-size: 16px;
-}
-.glsr-reviews p {
-  color: #fff;
-}
-.glsr-field label {
-  color: #fff;
-}
-.glsr-button {
-	background-color: #3CBFD0 !important;
-	font-size: 24px !important;
-	border-radius: 10px !important;
-}
-.glsr-field textarea, .glsr-field input{
-	font-size: 24px !important;
-	border-radius: 10px !important;
-}
-.glsr-field {
-	margin-bottom: 10px !important;
-}
-.glsr-field textarea::placeholder, .glsr-field input::placeholder {
-/* 	color: #747578; */
-	font-size: 24px;
-}
-
-@media screen and (min-width: 768px) {
-	.glsr-reviews {
-	display: flex !important;
-}
+.strong-view.wpmtst-default .wpmtst-testimonial, .strong-view.wpmtst-default .wpmtst-testimonial-inner {
+	border: none !important;
 }

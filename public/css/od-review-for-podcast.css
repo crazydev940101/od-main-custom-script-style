@@ -28,3 +28,6 @@ a.readmore-toggle {
 	background: none !important;
 	border: none !important;
 }
+.strong-view.wpmtst-default .wpmtst-testimonial-field {
+	text-align:left !important;
+}

@@ -1,30 +1,53 @@
-.strong-form-inner {
-	padding: 0px !important;
+.glsr-summary {
+	flex-wrap: nowrap !important;
 }
-.strong-rating-wrapper .star svg {
-	width: 28px !important;
+.glsr-summary-percentages {
+  display: none;
 }
-.strong-form .form-field input, .strong-form .form-field textarea{
-	font-size: 28px !important;
-	border-radius: 10px !important;
-}
-.strong-view.controls-type-sides-outside {
-	padding: 0px !important
-}
-.testimonial-content {
-	color: white !important;
-    font-size: 24px !important;
-}
-.testimonial-content p, .testimonial-name {
+.glsr-tag-value {
 	color: #fff;
 }
-.strong-view.wpmtst-default .wpmtst-testimonial, .strong-view.wpmtst-default .wpmtst-testimonial-inner {
-	border: none !important;
+.glsr-tag-value p{
+    font-size: clamp(18px, 4vw, 24px) !important;
 }
-.strong-form .field-wrap.error {
-	background: none !important;
-	border: none !important;
+.glsr-summary-text {
+  color: #fff;
+	font-size: 16px;
 }
-.wpmtst-testimonial-success p {
-	color: white !important;
+.glsr-reviews p {
+  color: #fff;
+}
+.glsr-field label {
+  color: #fff;
+}
+.glsr-button {
+	background-color: #3CBFD0 !important;
+	font-size: 24px !important;
+	border-radius: 10px !important;
+}
+.glsr-field textarea, .glsr-field input{
+	font-size: 24px !important;
+	border-radius: 10px !important;
+}
+.glsr-field {
+	margin-bottom: 10px !important;
+}
+.glsr-field textarea::placeholder, .glsr-field input::placeholder {
+/* 	color: #747578; */
+	font-size: 24px;
+}
+.glsr[data-theme] .gl-text-normal p {
+	color: #fff !important;	
+}
+.glsr[data-theme] .gl-swiper-arrow {
+	background-color: rgba(0,0,0,1) !important;
+}
+.glsr[data-theme] .gl-swiper-bullet:before {
+	color: #fff !important;
+}
+
+@media screen and (min-width: 768px) {
+	.glsr-reviews {
+	display: flex !important;
+}
 }

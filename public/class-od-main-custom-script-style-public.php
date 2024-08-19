@@ -97,10 +97,12 @@ class Od_Main_Custom_Script_Style_Public {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
-
+		
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/od-main-custom-script-style-public.js', array( 'jquery' ), $this->version, false );
 
 		wp_enqueue_script( 'od-review-for-podcast', plugin_dir_url( __FILE__ ) . 'js/od-review-for-podcast.js', array( 'jquery' ), $this->version, false );
+
+		wp_enqueue_script( 'od-seo-accessibility-improvement', plugin_dir_url( __FILE__ ) . 'js/od-seo-accessibility-improvement.js', array( 'jquery' ), $this->version, false );
 
 	}
 

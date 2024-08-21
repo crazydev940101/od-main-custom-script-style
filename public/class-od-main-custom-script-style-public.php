@@ -104,6 +104,8 @@ class Od_Main_Custom_Script_Style_Public {
 
 		wp_enqueue_script( 'od-seo-accessibility-improvement', plugin_dir_url( __FILE__ ) . 'js/od-seo-accessibility-improvement.js', array( 'jquery' ), $this->version, false );
 
+		wp_enqueue_script( 'od-indeed-job-list', plugin_dir_url( __FILE__ ) . 'js/od-indeed-job-list.js', array( 'jquery' ), $this->version, false );
+
 	}
 
 }

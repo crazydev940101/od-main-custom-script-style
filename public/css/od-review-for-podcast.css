@@ -45,6 +45,9 @@
 .glsr[data-theme] .gl-swiper-bullet:before {
 	color: #fff !important;
 }
+.glsr-no-margins {
+	color:#fff !important;
+}
 
 @media screen and (min-width: 768px) {
 	.glsr-reviews {
